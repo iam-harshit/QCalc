@@ -27,7 +27,7 @@ public class StandardCalculatorTest {
     @Test
     @DisplayName("Test Substraction of Two Integers")
     void testSubtractionOperation(){
-        standardCalculator.substract(1,1);
+        standardCalculator.subtract(1,1);
         int actualResult = standardCalculator.getResult();
         Assertions.assertEquals(0, actualResult);
     }
@@ -41,7 +41,7 @@ public class StandardCalculatorTest {
     }
 
     @Test
-    @DisplayName("Test Multiplication of Two Integers")
+    @DisplayName("Test Division of Two Integers")
     void testDivisionOperation(){
         standardCalculator.divide(10, 5);
         int actualResult = standardCalculator.getResult();

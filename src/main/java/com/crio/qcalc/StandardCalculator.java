@@ -24,7 +24,7 @@ public class StandardCalculator {
         result = num1 + num2;
     }
 
-    public void substract(int num1, int num2){
+    public void subtract(int num1, int num2){
         result = num1 - num2;
     }
 
